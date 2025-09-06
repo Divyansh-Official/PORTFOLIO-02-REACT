@@ -312,7 +312,7 @@ const Contact: React.FC = () => {
                 I'm available for freelance opportunities and exciting collaborations.
               </p>
               <motion.a
-                href='https://drive.google.com/file/d/1iu3_Aq-NpYmyOgGHhgE57apHxwGokec_/view?usp=drive_link'
+                href='https://drive.google.com/file/d/13XL_OBhEn71CNKz7hBBhktOlUIOAqFns/view?usp=sharing'
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="px-6 py-3 bg-gradient-to-r from-violet-500 to-orange-500 text-white font-semibold rounded-xl shadow-lg hover:shadow-violet-500/25 transition-all duration-300"
