@@ -1,0 +1,25 @@
+{
+  "education": [
+    {
+      "institution": "Chandigarh University",
+      "degree": "Bachelor of Technology in Computer Science and Engineering",
+      "period": "Expected August 2026",
+      "location": "Mohali, Punjab",
+      "coursework": [
+        "Data Structures and Algorithms (Java)",
+        "DBMS",
+        "Object Oriented Programming",
+        "Software Engineering",
+        "Computer Networks"
+      ],
+      "achievements": [
+        "Data Structures And Algorithms [Java]",
+        "Object Oriented Programming",
+        "Database Management System",
+        "Operating Systems",
+        "Computer Networks",
+        "Software Engineering"
+      ]
+    }
+  ]
+}

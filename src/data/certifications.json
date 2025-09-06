@@ -1,0 +1,23 @@
+{
+  "certifications": [
+    {
+      "title": "Industrial Training in Android App Development",
+      "issuer": "Premagati Technology Pvt. Ltd.",
+      "period": "May - July 2024",
+      "description": "Completed training in Android App Development through real-world projects. Gained proficiency in Java, XML, and SQLite, with expertise in API integration and database handling.",
+      "skills": ["Android Development", "Java", "XML", "SQLite", "API Integration"]
+    },
+    {
+      "title": "Rated 5 Star in JAVA",
+      "issuer": "HackerRank",
+      "rating": "44000",
+      "description": "Achieved 5-star rating on HackerRank with a rating of 44000 in Java programming."
+    },
+    {
+      "title": "LeetCode Problem Solver",
+      "issuer": "LeetCode",
+      "solved": "150+",
+      "description": "Solved around 150+ questions on LeetCode, demonstrating strong problem-solving skills."
+    }
+  ]
+}

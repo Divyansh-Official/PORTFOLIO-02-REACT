@@ -1,0 +1,14 @@
+{
+  "name": "Divyansh Tiwari",
+  "title": "Aspiring Android Developer",
+  "subtitle": "Software Engineer, Frontend & App Developer",
+  "phone": "9580550130",
+  "email": "iamdivyanshtiwari@gmail.com",
+  "location": "Mohali, Punjab",
+  "summary": "Aspiring Android Developer skilled in Java, React Native, and Spring Boot, with experience in building scalable apps and integrating APIs. Certified in Android Development, with proven problem-solving through projects like ZENFIT and ZENSTORE.",
+  "social": {
+    "linkedin": "https://linkedin.com",
+    "github": "https://github.com",
+    "portfolio": "https://portfolio.com"
+  }
+}

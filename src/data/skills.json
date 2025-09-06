@@ -1,0 +1,28 @@
+{
+  "categories": [
+    {
+      "name": "Languages",
+      "icon": "Code",
+      "description": "Programming languages I work with",
+      "skills": ["Java", "C++", "Python", "JavaScript", "TypeScript"]
+    },
+    {
+      "name": "Frameworks & Tools",
+      "icon": "Wrench",
+      "description": "Development frameworks and tools",
+      "skills": ["Spring Boot", "React Native", "Android SDK", "REST APIs", "Git", "Gradle", "Maven"]
+    },
+    {
+      "name": "Databases",
+      "icon": "Database",
+      "description": "Database technologies",
+      "skills": ["MySQL", "SQLite", "MongoDB", "Firebase", "Convex"]
+    },
+    {
+      "name": "Cloud & Services",
+      "icon": "Cloud",
+      "description": "Cloud platforms and services",
+      "skills": ["AWS", "Firebase", "REST APIs", "Git"]
+    }
+  ]
+}
