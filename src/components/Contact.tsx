@@ -311,13 +311,14 @@ const Contact: React.FC = () => {
               <p className="text-slate-400 mb-6">
                 I'm available for freelance opportunities and exciting collaborations.
               </p>
-              <motion.button
+              <motion.a
+                href='https://drive.google.com/file/d/1iu3_Aq-NpYmyOgGHhgE57apHxwGokec_/view?usp=drive_link'
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="px-6 py-3 bg-gradient-to-r from-violet-500 to-orange-500 text-white font-semibold rounded-xl shadow-lg hover:shadow-violet-500/25 transition-all duration-300"
               >
                 Download Resume
-              </motion.button>
+              </motion.a>
             </motion.div>
           </motion.div>
         </div>

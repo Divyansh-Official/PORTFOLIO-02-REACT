@@ -6,6 +6,7 @@ import Projects from './components/Projects';
 import Experience from './components/Experience';
 import Contact from './components/Contact';
 import CursorFollower from "./components/CursorFollower";
+import { Vortex } from './components/ui/vortex';
 
 function App() {
   return (
@@ -38,7 +39,7 @@ function App() {
       <footer className="py-8 px-6 bg-slate-950 border-t border-slate-800">
         <div className="max-w-7xl mx-auto text-center">
           <p className="text-slate-400">
-            © 2024 Divyansh Tiwari. Built with React, TypeScript, and Framer Motion.
+            -  © 2025 Divyansh Tiwari  -
           </p>
         </div>
       </footer>

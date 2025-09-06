@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { ExternalLink, Github, ArrowRight } from 'lucide-react';
 import projectsData from '../data/projects.json';
+import { Vortex } from './ui/vortex';
 
 const Projects: React.FC = () => {
   const [ref, inView] = useInView({
@@ -37,6 +38,7 @@ const Projects: React.FC = () => {
   return (
     <section className="py-20 px-6 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-950 relative overflow-hidden">
       {/* Floating 3D Elements */}
+      
       <div className="absolute inset-0 pointer-events-none">
         <motion.div
           className="absolute top-20 left-1/4 w-20 h-20"
