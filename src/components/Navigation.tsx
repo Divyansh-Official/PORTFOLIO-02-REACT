@@ -77,7 +77,8 @@ const Navigation: React.FC = () => {
               </motion.button>
             ))}
             
-            <motion.button
+            <motion.a
+              href='https://drive.google.com/file/d/13XL_OBhEn71CNKz7hBBhktOlUIOAqFns/view?usp=sharing'
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5, delay: 0.8 }}
@@ -86,7 +87,7 @@ const Navigation: React.FC = () => {
               className="px-6 py-2 bg-gradient-to-r from-cyan-500 to-violet-500 text-white font-semibold rounded-lg shadow-lg hover:shadow-cyan-500/25 transition-all duration-300"
             >
               Resume
-            </motion.button>
+            </motion.a>
           </div>
 
           {/* Mobile Menu Button */}

@@ -7,11 +7,13 @@ import Experience from './components/Experience';
 import Contact from './components/Contact';
 import CursorFollower from "./components/CursorFollower";
 import { Vortex } from './components/ui/vortex';
+import FloatingProfilesMenu from './components/floatingProfileMenu';
 
 function App() {
   return (
     <div className="min-h-screen bg-slate-950 text-white overflow-x-hidden">
       <CursorFollower /> 
+       <FloatingProfilesMenu />
       <Navigation />
       
       <main>

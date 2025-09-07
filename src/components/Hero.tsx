@@ -211,20 +211,22 @@ const Hero: React.FC = () => {
             transition={{ duration: 0.8, delay: 1 }}
             className="flex flex-wrap justify-center gap-6"
           >
-            <motion.button
+            <motion.a
+              href='https://github.com/Divyansh-Official'
               className="px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-semibold rounded-xl shadow-2xl shadow-cyan-500/25 hover:shadow-cyan-500/40 transition-all duration-300"
               whileHover={{ scale: 1.05, rotateX: 5 }}
               whileTap={{ scale: 0.95 }}
             >
               View My Work
-            </motion.button>
-            <motion.button
+            </motion.a>
+            <motion.a
+              href='https://www.linkedin.com/in/divyansh-tiwari-100299288/'
               className="px-8 py-4 border-2 border-violet-500 text-violet-300 font-semibold rounded-xl hover:bg-violet-500 hover:text-white transition-all duration-300 backdrop-blur-sm"
               whileHover={{ scale: 1.05, rotateX: -5 }}
               whileTap={{ scale: 0.95 }}
             >
               Get In Touch
-            </motion.button>
+            </motion.a>
           </motion.div>
         </motion.div>
       </div>

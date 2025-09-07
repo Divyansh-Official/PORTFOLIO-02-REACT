@@ -73,7 +73,6 @@ const Projects: React.FC = () => {
         {/* Section Heading */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
-          animate="visible"
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.2 }}
           transition={{ duration: 0.8 }}
@@ -95,7 +94,6 @@ const Projects: React.FC = () => {
         {/* Featured Project */}
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
-          animate="visible"
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true, amount: 0.2 }}
           transition={{ duration: 0.8, delay: 0.2 }}
@@ -133,22 +131,32 @@ const Projects: React.FC = () => {
                     </div>
 
                     <div className="flex gap-4">
-                      <motion.button
-                        whileHover={{ scale: 1.05, x: 5 }}
-                        whileTap={{ scale: 0.95 }}
-                        className="flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-violet-500 to-orange-500 text-white font-semibold rounded-xl shadow-lg hover:shadow-violet-500/25 transition-all duration-300"
-                      >
-                        <ExternalLink size={18} />
-                        View Project
-                      </motion.button>
-                      <motion.button
-                        whileHover={{ scale: 1.05 }}
-                        whileTap={{ scale: 0.95 }}
-                        className="flex items-center gap-2 px-6 py-3 border-2 border-slate-600 text-slate-300 font-semibold rounded-xl hover:border-white/30 hover:text-white transition-all duration-300"
-                      >
-                        <Github size={18} />
-                        Code
-                      </motion.button>
+                      {projectsData.featured.liveLink && (
+                        <motion.a
+                          href={projectsData.featured.liveLink}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          whileHover={{ scale: 1.05, x: 5 }}
+                          whileTap={{ scale: 0.95 }}
+                          className="flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-violet-500 to-orange-500 text-white font-semibold rounded-xl shadow-lg hover:shadow-violet-500/25 transition-all duration-300"
+                        >
+                          <ExternalLink size={18} />
+                          View Project
+                        </motion.a>
+                      )}
+                      {projectsData.featured.sourceCode && (
+                        <motion.a
+                          href={projectsData.featured.sourceCode}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          whileHover={{ scale: 1.05 }}
+                          whileTap={{ scale: 0.95 }}
+                          className="flex items-center gap-2 px-6 py-3 border-2 border-slate-600 text-slate-300 font-semibold rounded-xl hover:border-white/30 hover:text-white transition-all duration-300"
+                        >
+                          <Github size={18} />
+                          Code
+                        </motion.a>
+                      )}
                     </div>
                   </motion.div>
                 </div>
@@ -175,8 +183,7 @@ const Projects: React.FC = () => {
         <motion.div
           variants={containerVariants}
           initial="hidden"
-          animate="visible" // ✅ Animate instantly on mount
-          whileInView="visible" // ✅ Also animate when scrolled into view
+          whileInView="visible"
           viewport={{ once: true, amount: 0.1 }}
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
         >
@@ -267,18 +274,28 @@ const Projects: React.FC = () => {
                         {project.details}
                       </p>
                       <div className="flex gap-3">
-                        <motion.button
-                          whileHover={{ scale: 1.05 }}
-                          className="flex-1 py-2 bg-gradient-to-r from-violet-500 to-purple-600 text-white text-sm font-semibold rounded-lg hover:shadow-lg transition-all duration-300"
-                        >
-                          View Live
-                        </motion.button>
-                        <motion.button
-                          whileHover={{ scale: 1.05 }}
-                          className="flex-1 py-2 border border-slate-600 text-slate-300 text-sm font-semibold rounded-lg hover:border-white/30 transition-all duration-300"
-                        >
-                          Source Code
-                        </motion.button>
+                        {project.liveLink && (
+                          <motion.a
+                            href={project.liveLink}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            whileHover={{ scale: 1.05 }}
+                            className="flex-1 py-2 bg-gradient-to-r from-violet-500 to-purple-600 text-white text-sm font-semibold rounded-lg hover:shadow-lg transition-all duration-300 text-center"
+                          >
+                            View Live
+                          </motion.a>
+                        )}
+                        {project.sourceCode && (
+                          <motion.a
+                            href={project.sourceCode}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            whileHover={{ scale: 1.05 }}
+                            className="flex-1 py-2 border border-slate-600 text-slate-300 text-sm font-semibold rounded-lg hover:border-white/30 transition-all duration-300 text-center"
+                          >
+                            Source Code
+                          </motion.a>
+                        )}
                       </div>
                     </motion.div>
                   )}

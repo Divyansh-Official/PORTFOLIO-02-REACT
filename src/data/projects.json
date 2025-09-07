@@ -4,7 +4,9 @@
     "description": "Health and Fitness Management App built with Java, XML, Firebase, SQLite, API",
     "details": "Built a fitness app with an integrated pedometer, smart notifications and Firebase authentication. Achieved 30% faster response time using optimized API calls.",
     "tech": ["Java", "XML", "Firebase", "SQLite", "API"],
-    "image": "https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&cs=tinysrgb&w=800"
+    "image": "https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "liveLink": "https://drive.google.com/file/d/1JIjegUuTGq7a4Fpsl2ebCf2mFuaIojpS/view?usp=sharing",
+    "sourceCode": "https://github.com/Divyansh-Official/ZENFIT-JAVA"
   },
   "projects": [
     {
@@ -14,7 +16,9 @@
       "details": "Built a React Native and Spring Boot app that compares product prices and recommends the cheapest option. Integrated a feature enabling local vendors to list and promote products, enhancing availability and user choice.",
       "tech": ["React Native", "Node.js", "Spring Boot", "Python", "Scraping", "API"],
       "category": "Mobile Development",
-      "image": "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800"
+      "image": "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "liveLink": "https://zenstore-demo.vercel.app",
+      "sourceCode": "https://github.com/Divyansh-Official/ZENSTORE-JAVA"
     },
     {
       "id": 2,
@@ -23,7 +27,9 @@
       "details": "Delivered smooth user experience with optimized back-end for performance, low resource usage, and efficient admin controls management to upload, manipulate and delete the data easily for all the users.",
       "tech": ["Java", "Spring Boot", "MySQL", "HTML", "CSS"],
       "category": "Web Development",
-      "image": "https://images.pexels.com/photos/358319/pexels-photo-358319.jpeg?auto=compress&cs=tinysrgb&w=800"
+      "image": "https://images.pexels.com/photos/358319/pexels-photo-358319.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "liveLink": "https://flight-booking-demo.vercel.app",
+      "sourceCode": "https://github.com/Divyansh-Official/Flight-Booking-System"
     },
     {
       "id": 3,
@@ -32,7 +38,9 @@
       "details": "Advanced ML platform for research and development with integrated data analytics and visualization tools.",
       "tech": ["Python", "TensorFlow", "React", "Node.js"],
       "category": "AI/ML",
-      "image": "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800"
+      "image": "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "liveLink": "https://ai-lab-genesis-demo.vercel.app",
+      "sourceCode": "https://github.com/Divyansh-Official/AI-Lab-Genesis"
     },
     {
       "id": 4,
@@ -41,7 +49,9 @@
       "details": "IoT-enabled smart city transportation app with real-time tracking and route optimization.",
       "tech": ["React Native", "IoT", "Firebase", "Maps API"],
       "category": "IoT",
-      "image": "https://images.pexels.com/photos/1172675/pexels-photo-1172675.jpeg?auto=compress&cs=tinysrgb&w=800"
+      "image": "https://images.pexels.com/photos/1172675/pexels-photo-1172675.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "liveLink": "https://khara-mobility-demo.vercel.app",
+      "sourceCode": "https://github.com/Divyansh-Official/Khara-Mobility"
     }
   ]
 }
