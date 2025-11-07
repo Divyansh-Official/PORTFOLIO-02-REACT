@@ -30,28 +30,6 @@
       "image": "https://images.pexels.com/photos/358319/pexels-photo-358319.jpeg?auto=compress&cs=tinysrgb&w=800",
       "liveLink": "https://flight-booking-demo.vercel.app",
       "sourceCode": "https://github.com/Divyansh-Official/Flight-Booking-System"
-    },
-    {
-      "id": 3,
-      "title": "AI Lab Genesis",
-      "description": "Machine learning laboratory platform",
-      "details": "Advanced ML platform for research and development with integrated data analytics and visualization tools.",
-      "tech": ["Python", "TensorFlow", "React", "Node.js"],
-      "category": "AI/ML",
-      "image": "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800",
-      "liveLink": "https://ai-lab-genesis-demo.vercel.app",
-      "sourceCode": "https://github.com/Divyansh-Official/AI-Lab-Genesis"
-    },
-    {
-      "id": 4,
-      "title": "Khara - Urban Mobility",
-      "description": "Smart urban transportation solution",
-      "details": "IoT-enabled smart city transportation app with real-time tracking and route optimization.",
-      "tech": ["React Native", "IoT", "Firebase", "Maps API"],
-      "category": "IoT",
-      "image": "https://images.pexels.com/photos/1172675/pexels-photo-1172675.jpeg?auto=compress&cs=tinysrgb&w=800",
-      "liveLink": "https://khara-mobility-demo.vercel.app",
-      "sourceCode": "https://github.com/Divyansh-Official/Khara-Mobility"
     }
   ]
 }

@@ -1,56 +1,17 @@
 {
   "experience": [
     {
-      "company": "Co-Founder at Life Coach's Obsessive",
-      "position": "Co-Founder",
-      "period": "2024 - Present",
+      "company": "Prernagati Technology",
+      "position": "Android App Developer",
+      "period": "April 2024 - July 2024",
       "location": "Remote",
-      "description": "Co-founded Life Coach's Obsessive, managing end-to-end operational activities including team acquisition, resource allocation, budget management, HR tasks, building strategies, and overall project coordination.",
+      "description": "I’m a passionate and detail-oriented Software Engineer skilled in Java, Android development, React Native and Firebase integration. I create scalable, user-focused applications with clean, efficient code and have a strong grasp of backend development, APIs, and cloud technologies. With solid DSA knowledge and a problem-solving mindset, I excel at building innovative, high-performance solutions that deliver seamless user experiences.",
       "achievements": [
-        "Built team from ground up",
-        "Managed operational activities",
-        "Strategic planning and execution"
+        "Android SDK",
+        "Android Core",
+        "Advanced User Friendly Mobile App Development Using Java"
       ],
       "color": "cyan"
-    },
-    {
-      "company": "Senior Lead Software Engineer at Software Global Ltd",
-      "position": "Senior Software Engineer",
-      "period": "2019 - 2024",
-      "location": "Remote",
-      "description": "Led software development projects and mentored junior developers while implementing scalable solutions.",
-      "achievements": [
-        "Led development teams",
-        "Implemented scalable architectures",
-        "Mentored junior developers"
-      ],
-      "color": "violet"
-    },
-        {
-      "company": "Web Developer at IndusTree8 Consults",
-      "position": "Web Developer",
-      "period": "2018 - 2019",
-      "location": "Remote",
-      "description": "Developed responsive web applications using modern frameworks and technologies.",
-      "achievements": [
-        "Built responsive web applications",
-        "Worked with modern frameworks",
-        "Collaborated with design teams"
-      ],
-      "color": "orange"
-    },
-    {
-      "company": "Top Rated Web Developer at Upwork Inc.",
-      "position": "Freelance Developer",
-      "period": "2017 - Present",
-      "location": "Remote",
-      "description": "Maintained top-rated status while delivering high-quality web solutions to international clients.",
-      "achievements": [
-        "Maintained 5-star rating",
-        "Delivered 100+ projects",
-        "International client base"
-      ],
-      "color": "emerald"
     }
   ]
 }
