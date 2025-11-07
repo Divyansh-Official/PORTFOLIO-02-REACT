@@ -9,14 +9,8 @@
     {
       "id": 2,
       "name": "HackerRank",
-      "url": "https://www.hackerrank.com/profile/your_id",
+      "url": "https://www.hackerrank.com/profile/iamdivyanshtiwa1",
       "icon": "https://upload.wikimedia.org/wikipedia/commons/6/65/HackerRank_logo.png"
-    },
-    {
-      "id": 3,
-      "name": "Codeforces",
-      "url": "https://codeforces.com/profile/your_id",
-      "icon": "https://sta.codeforces.com/s/63304/images/codeforces-sponsored-by-ton.png"
     }
   ]
 }
